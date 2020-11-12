@@ -55,3 +55,33 @@ header > nav > ul > li{
     border-radius: 5px;
     cursor: pointer;
 }
+
+h1{
+    color: #007f5f;
+    font-size: 60px;
+    text-align: center;
+}
+
+@media (max-width: 575px){
+    .fixed-header{
+        background-color: #f0f3bd;
+        color: #2f3e46;
+    }
+    .header{
+        flex-direction: column;
+        padding-top: 10px;
+        height: 140px;
+    }
+
+    .navbar{
+        margin: 10px 0px;
+    }
+
+    .actions{
+        padding-bottom: 10px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+}
