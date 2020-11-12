@@ -62,7 +62,7 @@ h1{
     text-align: center;
 }
 
-@media (max-width: 575px){
+@media (max-width: 620px){
     .fixed-header{
         background-color: #f0f3bd;
         color: #2f3e46;
@@ -83,5 +83,44 @@ h1{
 
     h1{
         font-size: 30px;
+    }
+
+    .banner img{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .publish h3{
+        font-size: 18px;
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .publish p{
+        font-size: 16px;
+        padding: 0px 20px;
+        text-align: center;
+    }
+
+    .publish__email{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+
+    .publish__email input{
+        padding: 0 10px;
+    }
+
+    .publish__email button{
+            width: 120px;
+        padding: 10px 10px;
+        background-color: #2b9348;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 10px;
     }
 }
