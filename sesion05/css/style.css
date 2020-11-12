@@ -8,12 +8,17 @@ html{
     font-family: "Roboto", sans-serif;
 }
 
+.fixed-header{
+    background-color: #ffbf69;
+}
+
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 20px;
     height: 100px;
+    
 }
 
 header > a > img {
