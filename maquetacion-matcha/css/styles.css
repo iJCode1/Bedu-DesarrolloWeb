@@ -48,3 +48,52 @@ body{
     font-weight: 500;
     cursor: pointer;
 }
+/*----------------------------- Hero -----------------------------*/
+.hero{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero__title{
+    font-family: var(--Roboto);
+    color: var(--primaryColor);
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+
+.hero__description{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.form__button{
+    font-family: var(--IBMNormal);
+    background-color: var(--secondaryColor);
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.store--logo{
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.hero__store--description{
+    font-size: 1.4rem;
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+
+.hero__video{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
