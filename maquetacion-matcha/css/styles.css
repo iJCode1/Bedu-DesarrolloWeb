@@ -1,3 +1,11 @@
+:root{
+    --IBMNormal: 'IBM Plex Sans', sans-serif;
+    --Roboto: 'Roboto Mono', sans-serif;
+    --primaryColor: rgb(2,81,87);
+    --secondaryColor: #67B54B;
+    --gray: rgba(139,139,139,.8);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +14,37 @@
 
 html{
     font-size: 62.5%;
+}
+
+body{
+    font-family: var(--IBMNormal);
+}
+
+.header{
+    background-color:white;
+    height: 80px;
+    width: 100%;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    padding: 0 15px;
+}
+
+.nav__logo--link{
+}
+
+.link--img{
+    width: 100px;
+    vertical-align: middle;
+}
+
+.nav__started{
+    color: var(--primaryColor);
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
 }
