@@ -18,6 +18,7 @@ html{
 
 body{
     font-family: var(--IBMNormal);
+    font-weight: 400;
 }
 
 .header{
@@ -67,6 +68,7 @@ body{
 .hero__description{
     font-size: 2rem;
     margin-bottom: 30px;
+    color: rgb(124, 124, 124);
 }
 
 .form__button{
@@ -179,4 +181,51 @@ body{
     color: rgb(44, 44, 44);
     margin: 15px 0;
     line-height: 30px;
+}
+/*------------------- Tools ------------------------*/
+.header__tools{
+    margin-top: 60px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tools__title{
+    font-size:3rem;
+    color: var(--primaryColor);
+    font-family: var(--Alegreya);
+    line-height: 30px;
+}
+
+.tools__cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+}
+
+.tools-card{
+    margin: 20px 0;
+    padding: 30px 15px 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: white;
+    box-shadow: 2px 5px 5px rgb(212, 212, 212);
+}
+
+.card__img{
+    width: 50px;
+}
+
+.card__title{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.card__description{
+    font-size: 1.6rem;
+    color: rgb(77, 77, 77);
+    line-height: 22.5px;
+    margin-top: 20px;
+    padding: 0 5px;
 }
