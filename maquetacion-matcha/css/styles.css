@@ -1,3 +1,11 @@
+:root{
+    --IBMNormal: 'IBM Plex Sans', sans-serif;
+    --Alegreya: 'Alegreya', sans-serif;
+    --primaryColor: rgb(2,81,87);
+    --secondaryColor: #67B54B;
+    --gray: rgba(139,139,139,.8);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +14,396 @@
 
 html{
     font-size: 62.5%;
+}
+
+body{
+    font-family: var(--IBMNormal);
+    font-weight: 400;
+}
+
+.header{
+    background-color:white;
+    height: 80px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    padding: 0 15px;
+}
+
+.link--img{
+    width: 100px;
+    vertical-align: middle;
+}
+
+.nav__started{
+    color: var(--primaryColor);
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+/*----------------------------- Hero -----------------------------*/
+.hero{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero__title{
+    font-family: var(--Alegreya);
+    font-weight: 700;
+    color: var(--primaryColor);
+    font-size: 3rem;
+    margin-bottom: 25px;
+    line-height: 35px;
+}
+
+.hero__description{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: rgb(124, 124, 124);
+}
+
+.form__button{
+    font-family: var(--IBMNormal);
+    background-color: var(--secondaryColor);
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.store--logo{
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.hero__store--description{
+    font-size: 1.4rem;
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+
+.hero__video{
+    width: 100%;
+    min-width: 288px;
+    margin-bottom: 50px;
+}
+
+/*------------------- Brands ------------------------*/
+.brands--container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.brands--title{
+    color: var(--gray);
+    font-size: 1.6rem;
+    font-family: var(--Alegreya);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.brands__logos--container img{
+    padding: 20px 20px;
+}
+/*------------------- Features ------------------------*/
+.featuresContainer{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.features__title{
+    color: var(--primaryColor);
+    font-size: 3rem;
+    font-family: var(--Alegreya);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.features__description{
+    font-size: 1.8rem;
+    color: rgb(85, 85, 85);
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.features__cards--container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+.card--item{
+    margin: 20px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.item__image--container{
+    width: 100%;
+    height: 200px;
+}
+
+.item__image--container img{
+    width: inherit;
+    height: inherit;
+    border: 1px solid rgb(219, 214, 214);
+    border-radius: 10px;
+}
+
+.feature__title{
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.feature__description{
+    font-size: 1.8rem;
+    color: rgb(44, 44, 44);
+    margin: 15px 0;
+    line-height: 30px;
+}
+/*------------------- Tools ------------------------*/
+.header__tools{
+    margin-top: 60px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tools__title{
+    font-size:3rem;
+    color: var(--primaryColor);
+    font-family: var(--Alegreya);
+    line-height: 30px;
+}
+
+.tools__cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+}
+
+.tools-card{
+    margin: 20px 0;
+    padding: 30px 15px 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: white;
+    box-shadow: 2px 5px 5px rgb(212, 212, 212);
+}
+
+.card__img{
+    width: 50px;
+}
+
+.card__title{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.card__description{
+    font-size: 1.6rem;
+    color: rgb(77, 77, 77);
+    line-height: 22.5px;
+    margin-top: 20px;
+    padding: 0 5px;
+}
+/*------------------- Growing ------------------------*/
+.growing{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: left;
+    position: relative;
+}
+
+.growing__title{
+    font-size: 3.3rem;
+    color: rgb(2,81,87);
+    font-family: var(--Alegreya);
+    line-height: 32px;
+}
+
+.growing__description{
+    font-size: 1.6rem;
+    color: rgb(58, 58, 58);
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.growing__form{
+    margin-bottom: 50px;
+}
+
+.growing__form--button{
+    background-color: var(--primaryColor);
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    position: relative;
+    left: calc(50% - 169px/2);
+}
+
+.growing__cards{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+
+}
+
+.growing__card{
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid rgb(179, 179, 179);
+    box-shadow: 2px 5px 5px rgb(179, 178, 178);
+    padding-bottom: 60px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.growing__imgContainer{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    size: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card__text--container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.growing__card--title{
+    font-size: 2rem;
+    color: var(--primaryColor);
+    margin: 10px 0;
+}
+
+.growing__card--subtitle{
+    font-size: 3rem;
+    line-height: 30px;
+    color: rgb(48, 48, 48);
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.growing__promotion{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.growing__promotion--icon{
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    background-position-y: center;
+    position: absolute;
+    top: calc(50% - 30px/2);
+}
+
+.growing__promotion--text{
+    font-size: 1.6rem;
+    color: var(--gray);
+    width: 70%;
+    padding-left: 50px;
+}
+
+.promotion__form--button{
+    background-color: var(--primaryColor);
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.6rem; 
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.f1{
+    background-image: url("https://getmatcha.com/wp-content/uploads/2020/09/0-1-150x150-1.jpeg");
+}
+
+.f2{
+    background-image: url("https://getmatcha.com/wp-content/uploads/2019/05/profile-headshot-square.png");
+}
+.f3{
+    background-image: url("https://getmatcha.com/wp-content/uploads/2019/08/0.jpg");
+}
+
+.promo--logo{
+    position: absolute;
+    right: 30px;
+    top: 22px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: rgb(170, 170, 170);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.growing__oarsLogo{
+    background-image: url("https://getmatcha.com/wp-content/uploads/2020/09/pichxuxkgjv8u9vtlcpk-150x150-1.png");
+}
+
+.growing__everlyLogo{
+    top: 30px;
+    background-size: contain;
+    background-position-y: center;
+    border-radius: 50%;
+    background-color: yellow;
+    background-image: url("https://getmatcha.com/wp-content/uploads/2019/05/everly_logo_blue_v3_x60@2x.png");
+}
+
+.growing__summitLogo{
+    top: 30px;
+    background-size: contain;
+    background-position-y: center;
+    border-radius: 50%;
+    background-color: rgb(129, 215, 66);
+    background-image: url("https://getmatcha.com/wp-content/uploads/2019/08/SeatoSummitLogo.png");
+}
+
+.shopping-icon{
+    background-image: url("https://getmatcha.com/wp-content/themes/getmatcha/img/icon_cart.png")
+}
+
+.social-icon{
+    background-image: url("https://getmatcha.com/wp-content/themes/getmatcha/img/icon_audiences.png")
 }
