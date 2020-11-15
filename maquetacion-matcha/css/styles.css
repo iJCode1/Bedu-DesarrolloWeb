@@ -24,7 +24,8 @@ body{
 .header{
     background-color:white;
     height: 80px;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .header__nav{
@@ -252,8 +253,6 @@ body{
 }
 
 .growing__form{
-    position: relative;
-    left: calc(50% - 169px/2);
     margin-bottom: 50px;
 }
 
@@ -265,6 +264,9 @@ body{
     padding: 15px 20px;
     border-radius: 10px;
     border: none;
+    outline: none;
+    position: relative;
+    left: calc(50% - 169px/2);
 }
 
 .growing__cards{
