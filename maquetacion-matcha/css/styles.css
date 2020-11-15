@@ -266,3 +266,142 @@ body{
     border-radius: 10px;
     border: none;
 }
+
+.growing__cards{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+
+}
+
+.growing__card{
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid rgb(179, 179, 179);
+    box-shadow: 2px 5px 5px rgb(179, 178, 178);
+    padding-bottom: 60px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.growing__imgContainer{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    size: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card__text--container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.growing__card--title{
+    font-size: 2rem;
+    color: var(--primaryColor);
+    margin: 10px 0;
+}
+
+.growing__card--subtitle{
+    font-size: 3rem;
+    line-height: 30px;
+    color: rgb(48, 48, 48);
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.growing__promotion{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.growing__promotion--icon{
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    background-position-y: center;
+    position: absolute;
+    top: calc(50% - 30px/2);
+}
+
+.growing__promotion--text{
+    font-size: 1.6rem;
+    color: var(--gray);
+    width: 70%;
+    padding-left: 50px;
+}
+
+.promotion__form--button{
+    background-color: var(--primaryColor);
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.6rem; 
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.f1{
+    background-image: url("https://getmatcha.com/wp-content/uploads/2020/09/0-1-150x150-1.jpeg");
+}
+
+.f2{
+    background-image: url("https://getmatcha.com/wp-content/uploads/2019/05/profile-headshot-square.png");
+}
+.f3{
+    background-image: url("https://getmatcha.com/wp-content/uploads/2019/08/0.jpg");
+}
+
+.promo--logo{
+    position: absolute;
+    right: 30px;
+    top: 22px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: rgb(170, 170, 170);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.growing__oarsLogo{
+    background-image: url("https://getmatcha.com/wp-content/uploads/2020/09/pichxuxkgjv8u9vtlcpk-150x150-1.png");
+}
+
+.growing__everlyLogo{
+    top: 30px;
+    background-size: contain;
+    background-position-y: center;
+    border-radius: 50%;
+    background-color: yellow;
+    background-image: url("https://getmatcha.com/wp-content/uploads/2019/05/everly_logo_blue_v3_x60@2x.png");
+}
+
+.growing__summitLogo{
+    top: 30px;
+    background-size: contain;
+    background-position-y: center;
+    border-radius: 50%;
+    background-color: rgb(129, 215, 66);
+    background-image: url("https://getmatcha.com/wp-content/uploads/2019/08/SeatoSummitLogo.png");
+}
+
+.shopping-icon{
+    background-image: url("https://getmatcha.com/wp-content/themes/getmatcha/img/icon_cart.png")
+}
+
+.social-icon{
+    background-image: url("https://getmatcha.com/wp-content/themes/getmatcha/img/icon_audiences.png")
+}
