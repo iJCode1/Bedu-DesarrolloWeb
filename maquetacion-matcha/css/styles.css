@@ -1,6 +1,6 @@
 :root{
     --IBMNormal: 'IBM Plex Sans', sans-serif;
-    --Roboto: 'Roboto Mono', sans-serif;
+    --Alegreya: 'Alegreya', sans-serif;
     --primaryColor: rgb(2,81,87);
     --secondaryColor: #67B54B;
     --gray: rgba(139,139,139,.8);
@@ -56,11 +56,12 @@ body{
 }
 
 .hero__title{
-    font-family: var(--Roboto);
+    font-family: var(--Alegreya);
+    font-weight: 700;
     color: var(--primaryColor);
-    font-size: 2.2rem;
+    font-size: 3rem;
     margin-bottom: 25px;
-    line-height: 25px;
+    line-height: 35px;
 }
 
 .hero__description{
@@ -110,11 +111,72 @@ body{
 .brands--title{
     color: var(--gray);
     font-size: 1.6rem;
-    font-family:(--Roboto);
+    font-family: var(--Alegreya);
+    font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
 .brands__logos--container img{
     padding: 20px 20px;
+}
+/*------------------- Features ------------------------*/
+.featuresContainer{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.features__title{
+    color: var(--primaryColor);
+    font-size: 3rem;
+    font-family: var(--Alegreya);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.features__description{
+    font-size: 1.8rem;
+    color: rgb(85, 85, 85);
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.features__cards--container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+.card--item{
+    margin: 20px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.item__image--container{
+    width: 100%;
+    height: 200px;
+}
+
+.item__image--container img{
+    width: inherit;
+    height: inherit;
+    border: 1px solid rgb(219, 214, 214);
+    border-radius: 10px;
+}
+
+.feature__title{
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.feature__description{
+    font-size: 1.8rem;
+    color: rgb(44, 44, 44);
+    margin: 15px 0;
+    line-height: 30px;
 }
