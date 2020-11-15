@@ -94,6 +94,27 @@ body{
 
 .hero__video{
     width: 100%;
-    height: auto;
+    min-width: 288px;
+    margin-bottom: 50px;
+}
+
+/*------------------- Brands ------------------------*/
+.brands--container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.brands--title{
+    color: var(--gray);
+    font-size: 1.6rem;
+    font-family:(--Roboto);
+    text-transform: uppercase;
     margin-bottom: 20px;
+}
+
+.brands__logos--container img{
+    padding: 20px 20px;
 }
