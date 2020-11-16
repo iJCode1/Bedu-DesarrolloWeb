@@ -562,6 +562,12 @@ body{
     border-radius: 10px;
 }
 
+.integrations__elements--square{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+}
+
 .integrations__elements{
     margin-top: 80px;
 }
