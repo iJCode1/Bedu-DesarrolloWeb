@@ -94,9 +94,19 @@ body{
     margin-bottom: 20px;
 }
 
+.hero__videoContainer{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
 .hero__video{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    min-width: 288px;
+    height: 100%;
     margin-bottom: 50px;
 }
 
@@ -107,6 +117,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 50px;
 }
 
 .brands--title{
@@ -281,8 +292,8 @@ body{
 .growing__card{
     width: 100%;
     margin: 10px 0;
-    border: 1px solid rgb(179, 179, 179);
-    box-shadow: 2px 5px 5px rgb(179, 178, 178);
+    border: 1px solid rgb(216, 216, 216);
+    box-shadow: 6px 7px 10px rgb(219, 219, 219);
     padding-bottom: 60px;
     border-radius: 10px;
     position: relative;
@@ -499,7 +510,9 @@ body{
 .companie__item--description{
     font-size: 1.6rem;
     color: rgb(68, 68, 68);
-    
+    position: absolute;
+    width: 70px;
+    left: calc(50% - 70px/2 );
 }
 
 .companie--item:nth-child(1){
@@ -550,15 +563,16 @@ body{
 }
 
 .integrations__elements{
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .integration__element__circle{
-    width: 100%;
+    max-width: 280px;
     background-color: var(--primaryColor);
     border-radius: 50%;
     height: 280px;
     color: white;
+    margin: 0 auto;
     margin-bottom: 60px;
 }
 
@@ -680,6 +694,10 @@ body{
     font-size: 1.6rem;   
 }
 
+.i3 p{
+    margin-bottom: 20px
+}
+
 .i3 a{
     font-size: 1.8rem;
     font-weight: 700;
@@ -717,6 +735,8 @@ body{
     padding: 40px 30px 50px;
     color: white;
     border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .started__title{
@@ -805,7 +825,6 @@ body{
 }
 
 .footer__social{
-    margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -816,6 +835,7 @@ body{
 
 .social--elements{
     width: 100%;
+    max-width: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
