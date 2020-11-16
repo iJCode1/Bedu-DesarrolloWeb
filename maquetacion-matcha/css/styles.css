@@ -520,3 +520,78 @@ body{
 .wordpress{
     background-image: url("../aasets/icons/wordpress.png");
 }
+/*------------------- Integrations ------------------------*/
+.integrations--Container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.integrations__title{
+    font-size: 3.5rem;
+    color: var(--primaryColor);
+    font-family: var(--Alegreya);
+    margin-bottom: 60px;
+    line-height: 35px
+}
+
+.integrations__button{
+    background-color: var(--primaryColor);
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 15px 20px;
+    width: 70%;
+    margin-bottom: 50px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.integrations__elements{
+    margin-top: 40px;
+}
+
+.integration__element__circle{
+    width: 100%;
+    background-color: var(--primaryColor);
+    border-radius: 50%;
+    height: 280px;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.integration__matcha--logo{
+    padding-top: 20px;
+}
+
+.integration__matcha--description{
+    font-size: 1.4rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.integratios__elements--square{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr;
+}
+
+.integration__element{
+    width: 100%;
+    padding: 20px 20px 40px;
+    border: 1px solid #dedede;
+    box-shadow: 1px 1px 10px rgb(179 169 169);
+}
+
+.integration__title{
+    font-size: 2rem;
+    color: rgb(60, 60, 60);
+    margin: 20px 0;
+}
+
+.integration__description{
+    font-size: 1.8rem;
+    color: rgb(70, 70, 70);
+}
