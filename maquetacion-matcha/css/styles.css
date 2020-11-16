@@ -1,9 +1,10 @@
 :root{
     --IBMNormal: 'IBM Plex Sans', sans-serif;
     --Alegreya: 'Alegreya', sans-serif;
-    --primaryColor: rgb(2,81,87);
+    --primaryColor: #025157;
     --secondaryColor: #67B54B;
     --gray: rgba(139,139,139,.8);
+    --grayDark: #363636;
 }
 
 *{
@@ -33,7 +34,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: inherit;
-    padding: 0 15px;
+    padding: 0 5px;
 }
 
 .link--img{
@@ -692,8 +693,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
-    z-index: 5;
 }
 
 .i4 h2{
@@ -704,14 +703,169 @@ body{
 .i4 p{
     text-align: left;
 }
+/*------------------- Footer ------------------------*/
 
-.i4::before{
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0.3;
+.footer--container{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.footer__started{
+    background-color: var(--primaryColor);
+    padding: 40px 30px 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+.started__title{
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    line-height: 35px;
+    font-family: var(--Alegreya);
+}
+
+.started__subtitle{
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+}
+
+.started__subtitle--link{
+    color: var(--secondaryColor);
+}
+
+.started__link{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.8rem;
+    background-color: var(--secondaryColor);
+    border-radius: 4px;
+    color: white;
+    margin-top: 20px;
+}
+
+.started__required{
+    font-size: 1.4rem;
+    color: rgb(199, 199, 199);
+    margin-top: 30px;
+}
+
+.subscribe__description{
+    font-size: 2rem;
+    color: var(--grayDark);
+    margin-bottom: 20px;
+}
+
+.subscribe--input{
+    font-size: 1.4rem;
+    width: 50%;
+    border: 1px solid var(--primaryColor);
+    outline: none;
+    padding: 10px 15px 10px 10px;
+    border-radius: 5px;
+}
+
+.subscribe--button{
+    font-size: 1.4rem;
+    width: 40%;
+    background-color: var(--primaryColor);
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-left: -10px;
+    border: 1px solid var(--primaryColor);
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    outline: none;
+}
+
+.footer__title{
+    color: var(--primaryColor);
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: var(--Alegreya);
+    margin-bottom: 20px;
+}
+
+.footer--item{
+    font-size: 1.6rem;
+    color: var(--grayDark);
+    margin-bottom: 20px;
+}
+
+.footer__started, 
+.footer__subscribe, 
+.footer__products, 
+.footer__matcha,
+.footer__resources{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.footer__social{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.social--elements{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social--element{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
+
+.social--matcha{
+    width: 150px;
+    height: 40px;
+    background-size: 150px;
+}
+
+.social--matcha{
+    background-image: url("https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg");
+}
+
+.social--ins{
+    background-image: url("../aasets/icons/logotipo-de-instagram.svg");
+}
+
+.social--twi{
+    background-image: url("../aasets/icons/gorjeo.svg");
+}
+
+.social--fac{
+    background-image: url("../aasets/icons/facebook.svg");
+}
+
+.social--lin{
+    background-image: url("../aasets/icons/linkedin.svg");
+}
+
+.social--cap{
+    background-image: url("https://getmatcha.com/wp-content/themes/getmatcha/img/capterra-badge.png");
+    background-size: 70px;
+    width: 70px;
+    height: 70px;
+}
+
+.social__copyright{
+    font-size: 1.4rem;
+    color: var(--grayDark);
+    margin-top: 20px;
 }
