@@ -413,12 +413,6 @@ body{
     margin: 0 auto;
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 70px;
-    border-radius: 10px;
-}
-
-.compare__cardsContainer{
-    box-shadow: 2px 5px 10px rgb(138, 138, 138); 
 }
 
 .compare__title{
@@ -427,13 +421,15 @@ body{
     margin-bottom: 40px;
 }
 
+.compare__cardContainer{
+    border: 1px solid rgb(170, 170, 170);
+}
 
 .card__container--title{
     font-size: 3rem;
     font-family: var(--Alegreya);
     margin: 20px 0 40px 0;
     color: var(--primaryColor);
-    padding-top: 20px;
 }
 
 .subcard--container{
@@ -441,7 +437,7 @@ body{
 }
 
 .subcard__text{
-    width: 85%;
+    width: 87%;
     margin: 0 auto;
 }
 
@@ -449,7 +445,6 @@ body{
     margin-top: 30px;
     font-size: 2.5rem;
     font-weight: 700;
-    color: rgb(66, 66, 66);
 }
 
 .subcard__description{
@@ -463,16 +458,13 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 150px;
     margin-top: 40px;
+    border: 1px solid  rgb(201, 201, 201);
 }
 
 .companie--item{
     height: 100%;
     position: relative;
-
-    display: flex;
-    align-items: center;
     border-right: 1px solid rgb(201, 201, 201);
-    border-top: 1px solid rgb(201, 201, 201);
 }
 
 
