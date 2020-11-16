@@ -511,15 +511,15 @@ body{
 }
 
 .matcha{
-    background-image: url("../aasets/icons/matcha.png");
+    background-image: url("../assets/icons/matcha.png");
 }
 
 .shopify{
-    background-image: url("../aasets/icons/shopify.png");
+    background-image: url("../assets/icons/shopify.png");
 }
 
 .wordpress{
-    background-image: url("../aasets/icons/wordpress.png");
+    background-image: url("../assets/icons/wordpress.png");
 }
 /*------------------- Integrations ------------------------*/
 .integrations--Container{
@@ -842,19 +842,19 @@ body{
 }
 
 .social--ins{
-    background-image: url("../aasets/icons/logotipo-de-instagram.svg");
+    background-image: url("../assets/icons/logotipo-de-instagram.svg");
 }
 
 .social--twi{
-    background-image: url("../aasets/icons/gorjeo.svg");
+    background-image: url("../assets/icons/gorjeo.svg");
 }
 
 .social--fac{
-    background-image: url("../aasets/icons/facebook.svg");
+    background-image: url("../assets/icons/facebook.svg");
 }
 
 .social--lin{
-    background-image: url("../aasets/icons/linkedin.svg");
+    background-image: url("../assets/icons/linkedin.svg");
 }
 
 .social--cap{
