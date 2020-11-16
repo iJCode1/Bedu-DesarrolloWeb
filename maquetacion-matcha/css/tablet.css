@@ -1,0 +1,169 @@
+.nav__started{
+    font-size: 1.8rem;
+}
+
+.link--img{
+    width: 150px;
+}
+
+.store--logo{
+    width: 200px;
+}
+
+.item__image--container{
+    height: 320px;
+}
+
+.feature__title{
+    font-size: 3rem;
+}
+
+.tools__title{
+    font-size: 3.5rem;
+}
+
+.growing__title{
+    font-size: 3.8rem;
+    line-height: 40px;
+}
+
+.growing__description{
+    font-size: 1.8rem;
+}
+
+.growing__imgContainer{
+    height: 200px;
+}
+
+.growing__cards{
+    grid-template-columns: 70%;
+    justify-content: center;
+}
+
+.promo--logo{
+    top: 130px;
+}
+
+.growing__card--title{
+    font-size: 2.5rem;
+}
+
+.compare__container{
+    width: 70%;
+}
+
+.compare__title{
+    font-size: 3.5rem;
+}
+
+.subcard__title{
+    font-size: 3rem;
+}
+
+.subcard__description{
+    font-size: 1.8rem;
+}
+
+.companie__item--description{
+    width: 90px;
+    left: calc(50% - 90px/2);
+    font-size: 1.8rem;
+}
+
+.integrations__title{
+    font-size: 4rem;
+}
+
+.integrations--Container{
+    width:80%;
+}
+
+.integratios__elements--square{
+    grid-template-columns: .7fr;
+    justify-content: center;
+}
+
+.product--container{
+    grid-template-columns: .8fr;
+    justify-content: center;
+}
+
+.product__title{
+    font-size: 4rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.i2 .product__title{
+    width: 100%;
+}
+
+.i3 .product__image{
+    width: 300px;
+}
+
+.i4{
+    background-position-x: 250px;
+    background-color: var(--primaryColor);
+    background-size: contain;
+}
+
+.i4 h2{
+    width: 100%;
+}
+
+.footer__texts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social{
+    width: 100%;
+}
+
+.social--matcha{
+    align-self: flex-start;
+}
+
+.social__items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.social--elements{
+    justify-content: flex-start;
+}
+
+.social--element{
+    margin-left: 20px;
+}
+
+@media screen and (min-width: 800px){
+    .footer__subitems{
+        display: grid;
+        grid-template-columns: .7fr 1fr;
+        grid-gap: 40px;
+    }
+
+    .product--container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .i1 .product__title{
+        width: 90%;
+    }
+
+    .i3 .product__image{
+        width: 200px;
+    }
+
+    .i4{
+        background-position-x: 200px;
+    }
+
+    .i4 .product__title{
+        font-size: 3rem;
+    }
+}
