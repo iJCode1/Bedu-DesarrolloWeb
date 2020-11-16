@@ -407,3 +407,20 @@ body{
 .social-icon{
     background-image: url("https://getmatcha.com/wp-content/themes/getmatcha/img/icon_audiences.png")
 }
+/*------------------- Compare ------------------------*/
+.compare__container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.compare__title{
+    font-size: 3rem;
+    color: rgb(2,81,87);
+    margin-bottom: 40px;
+}
+
+.compare__cardContainer{
+    border: 1px solid rgb(170, 170, 170);
+}
