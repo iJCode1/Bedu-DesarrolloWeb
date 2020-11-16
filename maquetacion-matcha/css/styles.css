@@ -94,9 +94,19 @@ body{
     margin-bottom: 20px;
 }
 
+.hero__videoContainer{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
 .hero__video{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    min-width: 288px;
+    height: 100%;
     margin-bottom: 50px;
 }
 
@@ -107,6 +117,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 50px;
 }
 
 .brands--title{
@@ -724,6 +735,8 @@ body{
     padding: 40px 30px 50px;
     color: white;
     border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .started__title{
