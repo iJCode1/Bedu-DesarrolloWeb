@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/main.scss","../scss/_mixin.scss","../scss/_herencia.scss"],"names":[],"mappings":"AAAA;ACKA;EACI;EACA;EANA;EACA;;;AASJ;EACI;EAXA;EACA;;;ACFJ;EACI;EACA;EACA;;;AAGJ;EAEI;;;AAGJ;EAEI;;;AFRJ;AAAA;AAAA;AAAA;AAAA","file":"main.css"}
